@@ -1,3 +1,13 @@
+# 1. A boolean filter lets you select specific rows from a DataFrame
+# based on a condition. For example, only showing sales from the South
+# region. 
+# 2. df["revenue"] returns the revenue column as a Series, while df[["revenue"]]
+# returns it as a DataFrame. The difference is important when performing operations 
+# that need a DataFrame or when working with multiple columns. 
+# 3. I would choose pandas because it makes analyzing large amounts of data faster
+# and easier. Instead of manually sorting and filtering thousands of rows in Excel,
+# pandas allows you to do it with just a few lines of code. 
+
 print("---Exercise 1---")
 import pandas as pd 
 df = pd.read_csv("data/retail_sales.csv")
